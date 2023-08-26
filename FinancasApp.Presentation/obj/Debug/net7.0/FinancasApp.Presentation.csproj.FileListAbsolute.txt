@@ -11,6 +11,8 @@ C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\Financ
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.AssemblyInfo.cs
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.csproj.CoreCompileInputs.cache
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.MvcApplicationPartsAssemblyInfo.cache
+C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.RazorAssemblyInfo.cache
+C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.RazorAssemblyInfo.cs
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\staticwebassets\msbuild.FinancasApp.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\staticwebassets\msbuild.build.FinancasApp.Presentation.props
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.FinancasApp.Presentation.props
@@ -24,5 +26,3 @@ C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\refint
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.pdb
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.genruntimeconfig.cache
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\ref\FinancasApp.Presentation.dll
-C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.RazorAssemblyInfo.cache
-C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.RazorAssemblyInfo.cs
