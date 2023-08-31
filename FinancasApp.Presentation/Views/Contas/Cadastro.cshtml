@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-body">
+            <h4>Cadastro de contas</h4>
+            <p>Inclua contas a receber ou pagar no seu histórico financeiro.</p>
+
+            <div class="mt-2">
+                <form>
+
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <label>Nome da conta:</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                            <label>Data da conta:</label>
+                            <input type="date" class="form-control" />
+                        </div>
+                        <div class="col-md-3">
+                            <label>Valor da conta:</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-md-6">
+                            <label>Descrição da conta:</label>
+                            <textarea class="form-control"></textarea>
+                        </div>
+                        <div class="col-md-3">
+                            <label>Tipo da conta:</label>
+                            <select class="form-select"></select>
+                        </div>
+                        <div class="col-md-3">
+                            <label>Categoria da conta:</label>
+                            <select class="form-select"></select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-2">
+                        <div class="col-md-12">
+                            <input type="submit" class="btn btn-success"
+                                   value="Realizar Cadastro" />
+                            <a href="/Contas/Consulta" class="btn btn-light">
+                                Ir para a consulta
+                            </a>
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+

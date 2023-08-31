@@ -68,3 +68,4 @@ C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\Financ
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\FinancasApp.Data.pdb
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.csproj.AssemblyReference.cache
 C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\obj\Debug\net7.0\FinancasApp.Presentation.csproj.CopyComplete
+C:\TEMP\COTI_CSHARP\FinancasApp\FinancasApp.Presentation\bin\Debug\net7.0\Newtonsoft.Json.dll
