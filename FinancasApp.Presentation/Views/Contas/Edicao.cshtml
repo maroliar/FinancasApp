@@ -1,4 +1,4 @@
-﻿@model FinancasApp.Presentation.Models.ContasCadastroViewModel
+﻿@model FinancasApp.Presentation.Models.ContasEdicaoViewModel
 
 @{
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -7,13 +7,17 @@
 <div class="container mt-4">
     <div class="card">
         <div class="card-body">
-            <h4>Cadastro de contas</h4>
-            <p>Inclua contas a receber ou pagar no seu histórico financeiro.</p>
+            <h4>Edição de contas</h4>
+            <p>Altere os dados de contas a receber ou pagar no seu histórico financeiro.</p>
 
             <div class="mt-2">
 
                 @using (Html.BeginForm())
                 {
+                    <div>
+                        @Html.HiddenFor(model => model.Id)
+                    </div>
+
                     <div class="row mb-2">
                         <div class="col-md-6">
                             <label>Nome da conta:</label>
@@ -24,7 +28,7 @@
                         </div>
                         <div class="col-md-3">
                             <label>Data da conta:</label>
-                            @Html.TextBoxFor(model => model.Data, new { @class = "form-control", @type = "date" })
+                            @Html.TextBoxFor(model => model.Data, "{0:yyyy-MM-dd}", new { @class = "form-control", @type = "date" })
                             <div class="text-danger">
                                 @Html.ValidationMessageFor(model => model.Data)
                             </div>
@@ -60,7 +64,8 @@
                         </div>
                         <div class="col-md-3">
                             <label>Categoria da conta:</label>
-                            @Html.DropDownListFor(model => model.CategoriaId, Model.ListagemCategorias, "Escolha uma opção", new { @class = "form-select"})
+                            @Html.DropDownListFor(model => model.CategoriaId, Model.ListagemCategorias,
+                        "Escolha um opção", new { @class = "form-select" })
                             <div class="text-danger">
                                 @Html.ValidationMessageFor(model => model.CategoriaId)
                             </div>
@@ -69,8 +74,8 @@
 
                     <div class="row mb-2">
                         <div class="col-md-12">
-                            <input type="submit" class="btn btn-success"
-                                   value="Realizar Cadastro" />
+                            <input type="submit" class="btn btn-primary"
+                                   value="Salvar Alterações" />
                             <a href="/Contas/Consulta" class="btn btn-light">
                                 Ir para a consulta
                             </a>

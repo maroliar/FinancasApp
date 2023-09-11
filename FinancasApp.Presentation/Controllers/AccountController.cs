@@ -132,6 +132,9 @@ namespace FinancasApp.Presentation.Controllers
             // destroi o cookie
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
 
+            // destroi a session
+            HttpContext.Session.Clear();
+
             return RedirectToAction("Login");
         }
     }

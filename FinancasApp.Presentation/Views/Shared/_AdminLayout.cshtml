@@ -15,7 +15,11 @@
     <title>Aplicativo de controle de finanças</title>
 
     <!-- folha de estilos do bootstrap -->
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- folha de estilos do JQuery DataTable -->
+    <link href="//cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-primary">
@@ -78,6 +82,26 @@
 
     <!-- biblioteca JS do bootstrap -->
     <script src="/js/bootstrap.bundle.min.js"></script>
+
+    <!-- biblioteca JS do JQuery (Link por CDN) -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+    <!-- biblioteca JS do JQuery DataTables (link por CDN) -->
+    <script src="//cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
+
+    <!-- seção para inserirmos conteudo javascript -->
+    @RenderSection("scripts", required: false)
+
+    <!-- configurar o datatable -->
+    <script>
+        $(document).ready(function () {
+            $(".table").DataTable({
+                language: {
+                    url: '//cdn.datatables.net/plug-ins/1.13.5/i18n/pt-BR.json',
+                }
+            });
+        })
+    </script>
 
 </body>
 </html>

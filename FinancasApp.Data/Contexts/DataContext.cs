@@ -14,8 +14,13 @@ namespace FinancasApp.Data.Contexts
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.ApplyConfiguration(new UsuarioMap());
+            modelBuilder.ApplyConfiguration(new CategoriaMap());
+            modelBuilder.ApplyConfiguration(new ContaMap());
+
         }
 
         public DbSet<Usuario> Usuario { get; set; }
-}
+        public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Conta> Conta { get; set; }
+    }
 }
